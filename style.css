@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+#title{
+    color: red;
+    font-family:sans-serif;
+}
+.nav-bar{
+    padding: 30px;
+}
+.text{
+    font-size: 30;
+    font-family:sans-serif;
+    color:indigo;
+    font-weight: 700;
+    background-color: cornflowerblue;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.para{
+    text-align: center;
+    font-size: 30;
+    font-family:sans-serif;
+    color:indigo;
+    font-weight: 700;
+}
+#first{
+    color:red;
+}
+
+#second{
+    color: seagreen;
+}
