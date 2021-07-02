@@ -2,9 +2,11 @@ body{
     background-image: url(images/bg_img.jpg);
     background-repeat: no-repeat;
 }
+.top-part{
+    display: flex;
+    align-items: flex-end;
+}
 #title{
     color: wheat;
     font-family: sans-serif;
-    vertical-align: bottom;
-
 }
