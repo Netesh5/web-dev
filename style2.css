@@ -1,0 +1,10 @@
+body{
+    background-image: url(images/bg_img.jpg);
+    background-repeat: no-repeat;
+}
+#title{
+    color: wheat;
+    font-family: sans-serif;
+    vertical-align: bottom;
+
+}

@@ -12,7 +12,7 @@ body{
     font-size: 30;
     font-family:sans-serif;
     color:indigo;
-    font-weight: 700;
+    font-weight: 700; 
     background-color: cornflowerblue;
     width: fit-content;
     padding: 50px;
@@ -34,4 +34,7 @@ body{
 
 #second{
     color: seagreen;
+}
+.first-text{
+    font-size: 50px;
 }
