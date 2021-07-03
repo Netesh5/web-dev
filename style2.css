@@ -1,16 +1,24 @@
 body{
-    background-image: url(images/bg_img.jpg);
-    background-repeat: no-repeat;
-}
-.top-part{
-    vertical-align: bottom;
+  color: aliceblue;
+  margin: 0;
 }
 #title{
     color: wheat;
     font-family: sans-serif;
 }
+#bg-image{
+    width: 100%;
+    height: fit-content;
+}
+.top-part{
+    
+}
+#start{
+    margin: -220px 100px 100px 50px;
+}
 
-#button-text{
+
+#button{
     color:white;
     background-color: rgba(255,255,255, 0.3);
     border-radius: 7px;
@@ -18,5 +26,6 @@ body{
     padding: 7px;
     font-weight: bold;
     font-family: sans-serif;
+    
     
 }
