@@ -5,6 +5,7 @@ body{
 #title{
     color: wheat;
     font-family: sans-serif;
+    text-shadow:8px 8px 8px black;
 }
 #bg-image{
     width: 100%;
@@ -26,6 +27,7 @@ body{
     padding: 7px;
     font-weight: bold;
     font-family: sans-serif;
+    box-shadow: 1px 1px 12px black;
     
     
 }
