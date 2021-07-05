@@ -27,7 +27,12 @@ body{
     padding: 7px;
     font-weight: bold;
     font-family: sans-serif;
-    box-shadow: 1px 1px 12px black;
-    
-    
+    box-shadow: 1px 1px 12px black;  
+}
+#about{
+    color: black;
+    font-size: 27px;
+}
+#italic{
+    font-style: italic;
 }
