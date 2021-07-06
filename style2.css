@@ -6,9 +6,9 @@ body{
     font-family: sans-serif;
     text-shadow:8px 8px 8px black;
 }
-#title:hover{
+/* #title:hover{
     font-size: 20px;
-}
+} */
 #bg-image{
     width: 100vw;
     height: 65vh;
@@ -55,7 +55,7 @@ body{
     color: red;
     
 }
-#about:hover{
+#aboutt:hover{
     color: red;
 }
 #portfolio:hover{
