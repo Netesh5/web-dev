@@ -105,3 +105,8 @@ li{
     right: 20px;
     bottom: 20px;
 }
+@media screen and (max-width:619px){
+    #bg-image{
+        height: 50vh;
+    }
+}
