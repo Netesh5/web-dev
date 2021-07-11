@@ -119,9 +119,38 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: royalblue;
+    padding: 20px;
     display: grid;
+    
+    grid-template-areas: 
+    'header header header header header header'
+    'menu menu main main main main ' 
+    'footer footer footer footer footer footer ' ;
+    
+     
+    
 }
-
+.grid{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+#grid-1{
+    grid-area: header;
+}
+#grid-2{
+    grid-area: menu;
+}
+#grid-3{
+    grid-area: main;
+    
+}
+#grid-4{
+    grid-area: footer;
+    
+}
 
 #messenger-icon{
     position: fixed;
