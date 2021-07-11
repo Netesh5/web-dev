@@ -13,6 +13,7 @@ body{
     width: 100vw;
     height: 65vh;
     
+    
 }
 .top-part{
     
@@ -50,7 +51,7 @@ body{
     text-align: center;
 }
 
-#nav-list{
+/* #nav-list{
     list-style-type: none;
     font-size: 20px;
     background-color: rgba(255,255,255, 0.3);
@@ -64,6 +65,20 @@ li{
     float: left;
     padding: 20px;
     color:white;
+} */
+#nav-bar{
+    background-color: rgba(255,255,255, 0.3);
+}
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
+    
+}
+li{
+    padding: 30px;
+    font-size: 20px;
 }
 #home{
     text-decoration: none;
@@ -99,6 +114,14 @@ li{
     width: 80px;
     height: 80px;
 } */
+
+.grid-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: royalblue;
+    display: grid;
+}
+
 
 #messenger-icon{
     position: fixed;
