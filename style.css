@@ -6,6 +6,12 @@ body{
     font-family:sans-serif;
 }
 .nav-bar{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+li{
+    list-style-type: none;
     padding: 30px;
 }
 .text{
