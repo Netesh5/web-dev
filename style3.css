@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+#bg-image{
+    width: 100vw;
+    height: 60vh;
+    
+    
+}
+#nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0px;
+    border: 1px solid red;
+    background-color: rgba(255,255,255, 0.3);
+}
+li{
+    text-decoration: none;
+    padding: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+#logo{
+    font-family: sans-serif;
+}
