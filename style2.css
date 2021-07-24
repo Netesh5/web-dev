@@ -15,9 +15,7 @@ body{
     
     
 }
-.top-part{
-    
-}
+
 #start{
     margin: -220px 100px 100px 50px;
 }
@@ -74,7 +72,7 @@ li{
     display: flex;
     margin: 0px;
     justify-content: flex-end;
-    font-family: sans-serif;
+    
     
 }
 li{
