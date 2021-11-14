@@ -1,5 +1,5 @@
 @keyframes animate{
-    25%{
+    50%{
         /* transform: rotate(90deg); */
         background: blueviolet;
         height: 500px;
@@ -15,7 +15,7 @@
     }
 }
 @keyframes animate3{
-    75%{
+    50%{
        /*  transform: rotate(-180deg); */
         background: blueviolet;
         height: 500px;
@@ -23,7 +23,7 @@
     }
 }
 @keyframes animate4{
-    100%{
+    50%{
        /*  transform: rotate(-90deg); */
         background: blueviolet;
         height: 500px;
