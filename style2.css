@@ -15,9 +15,7 @@ body{
     
     
 }
-.top-part{
-    
-}
+
 #start{
     margin: -220px 100px 100px 50px;
 }
@@ -75,10 +73,13 @@ li{
     margin: 0px;
     justify-content: flex-end;
     
+    
 }
 li{
     padding: 30px;
     font-size: 20px;
+   
+    
 }
 #home{
     text-decoration: none;
