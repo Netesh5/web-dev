@@ -1,3 +1,35 @@
+@keyframes animate{
+    25%{
+        /* transform: rotate(90deg); */
+        background: blueviolet;
+        height: 500px;
+        width: 500px;
+    }
+}
+@keyframes animate2{
+    50%{
+        /* transform: rotate(180deg); */
+        background: blueviolet;
+        height: 500px;
+        width: 500px;
+    }
+}
+@keyframes animate3{
+    75%{
+       /*  transform: rotate(-180deg); */
+        background: blueviolet;
+        height: 500px;
+        width: 500px;
+    }
+}
+@keyframes animate4{
+    100%{
+       /*  transform: rotate(-90deg); */
+        background: blueviolet;
+        height: 500px;
+        width: 500px;
+    }
+}
 body{
     display: flex;
     height: 100vh;
@@ -6,26 +38,33 @@ body{
     background-color: grey;
 }
 .box1{
-
     background: orange;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    animation: animate 4s infinite;
 }
 .box2{
     margin-left: 20px;
     background-color:black;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    animation: animate 3s infinite;
 }
 .box3{
     margin-left: 20px;
     background-color: red;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    animation: animate 2s infinite;
 }
 .box4{
     margin-left: 20px;
     background-color:blue;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    animation: animate 1s infinite;
 }
