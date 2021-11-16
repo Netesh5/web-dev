@@ -2,8 +2,36 @@ body{
     margin: 0px;
 }
 .bg{
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
     background-image: url(https://wallpaperaccess.com/full/1094561.jpg);
-    
+    color: white;
+}
+.bg2{
+    background-image: url(https://wallpaperaccess.com/full/1094561.jpg);
+    color: white;
+    background-size: cover;
+    height: 50vh;
+}
+.bg3{
+    background-image: url(https://wallpaperaccess.com/full/1094561.jpg);
+    color: white;
+    background-size: auto;
+    height: 50vh;
+}
+.bg4{
+    background: linear-gradient(red,green,yellow);
+    color: white; 
+    height: 50vh;
+}
+.bg5{
+    background: radial-gradient(red,green,yellow);
+    color: white; 
+    height: 50vh;
+}
+.bg6{
+    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    color: white;
 }
