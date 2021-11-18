@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+    background-color: orangered
+}
+.display{
+    color: azure;
+    font-size: 30px;
+    margin: 20px;
+    
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+li{
+    padding: 30px;
+}
