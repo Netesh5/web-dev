@@ -6,6 +6,21 @@ body{
     right: 10px;
     bottom: 10px;
 }
+.position2{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.position3{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.child{
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
 .box{
     height: 2000px;
     width: 100%;
