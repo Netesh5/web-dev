@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    background: red;
+}
+@media screen and (max-width:780px){
+    body{
+        background: yellow;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        background: orange;
+    }
+}
+@media screen and (max-width:380px){
+    body{
+        background: blue;
+    }
+}
