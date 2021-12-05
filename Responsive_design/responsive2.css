@@ -44,6 +44,18 @@ img{
     font-size: 30px;
     font-weight: bolder;
 }
+.text-item{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px;
+    width: 500px;
+    height: 200px;
+}
+
 
 @media screen and (max-width:480px) {
     .parent{
@@ -59,4 +71,5 @@ img{
         height: 200px;
         width: 300px;
     }
+    
 }
