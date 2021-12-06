@@ -55,6 +55,15 @@ img{
     width: 500px;
     height: 200px;
 }
+.nav-bar{
+    display: flex;
+    background: yellow;
+    flex-wrap: nowrap;
+}
+ul{
+    display:inline-flex;
+    
+}
 
 
 @media screen and (max-width:480px) {
