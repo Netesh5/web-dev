@@ -59,8 +59,11 @@ img{
     display: flex;
     background: yellow;
     flex-wrap: nowrap;
+    justify-content: right;
 }
 ul{
+    font-size: larger;
+    font-weight: bolder;
     display:inline-flex;
     
 }
@@ -82,6 +85,9 @@ ul{
     }
     .text{
         color: blue;
+    }
+    .nav-bar{
+        flex-wrap: wrap;
     }
     
 }
