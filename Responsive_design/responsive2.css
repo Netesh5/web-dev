@@ -65,9 +65,8 @@ ul{
     font-size: larger;
     font-weight: bolder;
     display:inline-flex;
-    
+    padding-right: 30px;
 }
-
 
 @media screen and (max-width:480px) {
     .parent{
@@ -88,6 +87,7 @@ ul{
     }
     .nav-bar{
         flex-wrap: wrap;
+        display: none;
     }
     
 }
