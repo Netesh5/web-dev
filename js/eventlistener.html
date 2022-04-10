@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listener</title>
+</head>
+<body>
+    <input type="text">
+    <p></p>
+</body>
+<script>
+    let a=document.querySelector("input")
+    a.addEventListener("change",function(){
+        let inputText=a.value
+    alert(inputText)
+    document.querySelector('p').innerHTML=inputText
+    })
+    
+</script>
+</html>
