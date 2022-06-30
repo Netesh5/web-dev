@@ -1,16 +1,23 @@
 .cube {
+    margin: 150;
     width: 200px;
     height: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.9;
-    animation: identifier 5s infinite;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: identifier 5s linear infinite;
 }
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
 }
 .box1 {
     transform: translateZ(100px);
@@ -69,7 +76,13 @@ img {
     top: -32px;
   } */
   @keyframes identifier {
-      
+      from{
+          top: 0px;
+      }
+      to{
+          top: 400px;
+      }
+     
     100% {
         transform: rotate(0deg);
     }
